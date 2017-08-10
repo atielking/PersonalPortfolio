@@ -216,6 +216,17 @@ transition: 0.3s;
         overflow-x: hidden;
         font-size: 14px;
     }
+    #projects h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+
+    #projects p {
+      font-size: 14px;
+    }
+    #projects h2 {
+      font-size: 20px;
+    }
     #header-bar {
         height: 2%;
     }
