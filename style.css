@@ -207,32 +207,39 @@ transition: 0.3s;
     border: 1px solid black;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     body {
-        margin: 0% 5%;
+        margin: 5% 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 20%;
         overflow-x: hidden;
+        font-size: 14px;
     }
     #header-bar {
         height: 2%;
     }
     #intro h1 {
-        font-size: 7vh;
+        font-size: 20px;
         width: 90%;
     }
     #intro p {
-        font-size: 3vh;
+        font-size: 14px;
     }
     #social-bar {
-        position: relative;
+        position: fixed;
+        top: 20;
+        left: 10;
         margin: auto;
         height: 50px;
         width: auto;
-        margin-bottom: 20px;
+        margin-top: 0px;
+        margin-bottom: 5px;
     }
     #social-bar div {
         display: inline-block;
         margin-top: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     #projects {
         width: calc(100% - 100px);
