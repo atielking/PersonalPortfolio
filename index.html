@@ -1,0 +1,86 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <title>Allison Tielking</title>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Quicksand|Just+Me+Again+Down+Here" rel="stylesheet">
+    <link rel='stylesheet' href='style.css'>
+    <script src="jquery.colorbox.js"></script>
+    <script src="jquery.colorbox-min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="../Portfolio/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Portfolio/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Portfolio/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="colorbox.css" />
+
+    <script>
+      jQuery(document).ready(function () {
+        jQuery('.socialq').colorbox({ iframe:true, width:"80%", height:"80%" });
+        jQuery('.diary').colorbox({  iframe:true, width:"80%", height:"80%" });
+        jQuery('.genetics').colorbox({ iframe:true, width:"80%", height:"80%"});
+
+      });
+    </script>
+    <!-- JS -->
+</head>
+
+<body>
+    <div id='header-bar'></div>
+    <div id="pop-up">
+    <div id="iframe">content</div>
+    </div>
+    <div id='intro'>
+    <h1>Allison Tielking</h1>
+    <p> I am a second-year student-athlete at Stanford University. Currently, I am pursuing a B.S. in Computer Science with a Focus in Information.
+      This summer, I interned at <a href="https://www.microsoft.com/en-us/" target="_blank">Microsoft</a> on the Payments Team within Universal Store.
+     </p>
+    <br>
+    <p>Check out my resume <a href="https://drive.google.com/file/d/0BzgPIbMHaE3uY1FINnN2S1hSdGc/view?usp=sharing" target='_blank'>here</a>.</p>
+    <br>
+    </div>
+    <div id='projects'>
+        <h1>Projects</h1>
+        <hr />
+        <a class="socialq colorbox-load" href="http://www.youtube.com/embed/FgqIG4N0qpc?rel=0&wmode=transparent&autoplay=1" title="">
+        <div class='portfolio-item'>
+            <h2>SocialQ</h2>
+            <p>Created a Microsoft HoloLens application using the Windows Holographic SDK for Unity and the Microsoft Cognitive Services Emotion API, which<strong> won the Microsoft Technology Prize at CalHacks 3.0.</strong>
+            This application helps those affected by Autism Spectrum Disorder understand social cues.</p>
+            <p>When users find it difficult or overwhelming to interpret the sentiments of others, they can activate SocialQ with a hand gesture, which interacts with an API to provide them a
+            brief interpretation of a selected person's facial sentiment. The interpretation is direct, but not intrusive. SocialQ functions not just as social "safety net", but as a constant
+            (but subtle) reinforcement tool for users who need practice recognizing different types of facial expression.
+            </p>
+        </div></a>
+        <a class="diary colorbox-load" href="http://www.youtube.com/embed/F8VlhfCFj64?rel=0&wmode=transparent&autoplay=1" title="">
+        <div class='portfolio-item'>
+            <h2>Diary App</h2>
+            <p>Final project for Web Programming class, made a diary application that uses MongoDB to store entries. Created entry editing capabilities with a clean front-end design.
+              There is a unique journal ID for each user, and each prompt is unique for each day. Also used Node and Express to interface with server.</p>
+        </div></a>
+        <a class="genetics colorbox-load" href="http://www.youtube.com/embed/iLQNUbudVK0?rel=0&wmode=transparent&autoplay=1" title="">
+        <div class='portfolio-item'>
+            <h2>PhyloForest</h2>
+            <p>Created PhyloForest, a Virtual Reality app that helps researchers and educators by improving how we see phylogenetic trees. This project <strong>won the Genomics Prize at Treehacks.</strong>
+              Strong, useful data visualization is key to new discoveries and patterns. Thanks to our product, users have a greater ability
+              to perceive depth of trees by communicating widths rather than lengths. The length between proteins is based on actual lengths scaled to size. </p>
+              <p>
+              We used EggNOG to get phylogenetic trees in Newick format, then parsed them using a recursive algorithm to get the differences between the protein
+              group in question. We connected names to IDs using the EBI (European Bioinformatics Institute) database, then took the lengths between the proteins
+              and scaled them to size for our Unity environment.
+            </p>
+        </div>
+    </div>
+
+    <div id='social-bar'>
+        <a href='mailto:atielkin@stanford.edu?Subject=Hey%20Allison,'><div class='social-item' id='mail'><img src='images/mail.png'></div></a>
+        <a href='https://www.linkedin.com/in/allison-tielking/' target='_blank' ><div class='social-item' id='linkedin'><img src='images/linked_in.png'></div></a>
+        <a href='https://github.com/atielking' target='_blank'><div class='social-item' id='github'><img src='images/git_hub.png'></div></a>
+        <a href='http://www.gostanford.com/roster.aspx?rp_id=11453' target='_blank'><div class='social-item' id='github'><img src='images/oars.png'></div></a>
+
+    </div>
+
+    <div id='footer'></div>
+
+</body>
