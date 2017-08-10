@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="colorbox.css" />
 
     <script>
+    $(document).ready(function(){
+        $('html').animate({scrollTop:0}, 1);
+        $('body').animate({scrollTop:0}, 1);
+    });
       jQuery(document).ready(function () {
         jQuery('.socialq').colorbox({ iframe:true, innerWidth: 640, innerHeight:390 });
         jQuery('.diary').colorbox({  iframe:true,  innerWidth: 640, innerHeight:390 });
